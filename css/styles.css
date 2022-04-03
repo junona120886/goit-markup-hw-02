@@ -41,7 +41,7 @@ h2 {
 }
 /*a {
   text-decoration: none;*/
-}
+
 ul {
   list-style: none;
 }
@@ -241,5 +241,5 @@ address {
   text-align: left;
 }
 .portfolio-item-link {
-    text-decoration: none;
+  text-decoration: none;
 }
