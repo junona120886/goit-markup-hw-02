@@ -1,0 +1,116 @@
+/*document's colors
+цвет заголовков #212121
+цвет текста #757575
+акцент #2196F3
+footer background #2F303A
+
+document's fonts
+Raleway, normal, 700;
+Roboto, normal, 400, 500, 700;
+*/
+:root {
+  --primary-background-color: #fff;
+  --primary-text-color: #757575;
+  --header-text-color: #212121;
+  --accent-color: #2196f3;
+  --accent-background-color: #2f303a;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--header-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/*логотип*/
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo > a {
+  color: #000;
+  text-decoration: none;
+}
+.logo-accent {
+  color: #2196f3;
+}
+
+/*навигация*/
+.navigation {
+  color: var(
+    --header-text-color
+  ); /*чи потрібно тут задавати колір тексту, якщо для посилань все рівно треба перевизначити?*/
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-list {
+  list-style: none;
+}
+.navigation-item {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+.navigation-item:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+/*контакты*/
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero {
+  background-color: var(--accent-background-color);
+  width: 1600px;
+  height: 600px;
+  /*text-align: center;*/
+}
+.hero-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-order {
+  /*як вирівнять кнопку по центру секції?*/
+  width: 200px;
+  height: 50px;
+
+  background-color: var(--accent-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
