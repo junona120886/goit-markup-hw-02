@@ -65,7 +65,6 @@ address {
 .logo-accent {
   color: var(--accent-color);
 }
-
 /*навигация*/
 .navigation {
   color: var(
@@ -75,9 +74,6 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.navigation-list {
-  list-style: none;
 }
 .navigation-item {
   color: var(--secondary-text-color);
@@ -126,6 +122,7 @@ address {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  border-style: none;
 }
 /* не зрозуміло з макету, чи колір при hover і focus/active різний?*/
 .button-primary:hover,
