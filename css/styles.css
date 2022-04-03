@@ -42,11 +42,14 @@ h2 {
 /*a {
   text-decoration: none;*/
 
-ul {
+/*ul {
   list-style: none;
-}
+}*/
 address {
   font-style: normal;
+}
+.list {
+  list-style: none;
 }
 /*index.html*/
 /*логотип*/
