@@ -1,3 +1,13 @@
+/*@import '_normalise.css'
+html{
+    box-sizing: border-box;
+}
+*,
+*::after, 
+::before {
+    box-sizing: inherit;
+}
+    */
 /*document's colors
 цвет заголовков #212121
 цвет текста #757575
@@ -220,7 +230,7 @@ address {
 
 /*portfolio.html*/
 .portfolio-title {
-  display: none;
+  visibility: hidden;
 }
 .portfolio-item {
   width: 370px;
