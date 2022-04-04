@@ -28,6 +28,7 @@ Roboto, normal, 400, 500, 700, 900;
   --primary-white: #fff;
   --primary-button-color: #f5f4fa;
   --button-hover-color: #188ce8;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -49,12 +50,7 @@ h2 {
   letter-spacing: 0.03em;
   text-align: center;
 }
-/*a {
-  text-decoration: none;*/
 
-/*ul {
-  list-style: none;
-}*/
 address {
   font-style: normal;
 }
@@ -90,7 +86,7 @@ address {
   text-decoration: none;
 }
 .navigation-item:hover,
-:focus {
+.navigation-item:focus {
   color: var(--accent-color);
 }
 /*контакты*/
@@ -103,7 +99,7 @@ address {
   text-decoration: none;
 }
 .contacts-link:hover,
-:focus {
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -122,6 +118,7 @@ address {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button-primary {
   background-color: var(--primary-button-color);
@@ -134,9 +131,9 @@ address {
   letter-spacing: 0.03em;
   border-style: none;
 }
-/* не зрозуміло з макету, чи колір при hover і focus/active різний?*/
+/* не зрозуміло з макету, чи колір при hover/focus i active різний?*/
 .button-primary:hover,
-:focus {
+.button-primary:focus {
   background-color: var(--button-hover-color);
   color: var(--primary-white);
 }
@@ -159,7 +156,7 @@ address {
   letter-spacing: 0.06em;
 }
 .button-order:hover,
-:focus {
+.button-order:focus {
   background-color: var(--button-hover-color);
 }
 
@@ -217,17 +214,19 @@ address {
   text-decoration: none;
 }
 .footer-text {
-  color: var(--primary-white);
+  color: var(--footer-text-color);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.footer-adress {
+  color: var(--primary-white);
+}
 .footer-text:hover,
-:focus {
+.footer-text:focus {
   color: var(--accent-color);
 }
-
 /*portfolio.html*/
 .portfolio-title {
   visibility: hidden;
